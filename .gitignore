@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.*
+
+# Build output
+dist/
+build/
+
+# Cache
+.cache/
+.tmp/
+temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+
+# Package lock files (optional - keep if you use them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml

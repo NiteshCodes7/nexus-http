@@ -1,0 +1,37 @@
+{
+  "name": "nexus-http",
+  "version": "1.0.0",
+  "description": "A powerful, feature-rich HTTP client with caching, retries, deduplication, streaming, and more.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./src/index.js",
+      "import": "./src/index.js",
+      "types": "./src/index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "node tests/index.test.js"
+  },
+  "keywords": [
+    "http",
+    "fetch",
+    "client",
+    "axios-alternative",
+    "request",
+    "caching",
+    "retry",
+    "streaming",
+    "deduplication"
+  ],
+  "author": "Nitesh Ghosh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NiteshCodes7/nexus-http"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,45 @@
+# Source control
+.git
+.gitignore
+.github/
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# Env files
+.env
+.env.*
+
+# Tests
+test/
+tests/
+__tests__/
+coverage/
+
+# Build tools / configs
+.vscode/
+.idea/
+.eslint*
+.prettier*
+babel.config.js
+webpack.config.js
+rollup.config.js
+vite.config.js
+
+# Docs / misc
+*.md
+docs/
+examples/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp files
+tmp/
+temp/
+.cache/
