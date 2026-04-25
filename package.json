@@ -36,9 +36,7 @@
     "node": ">=18.0.0"
   },
   "devDependencies": {
-    "tsup": "^8.5.1"
-  },
-  "dependencies": {
+    "tsup": "^8.5.1",
     "typescript": "^6.0.3"
   }
 }
