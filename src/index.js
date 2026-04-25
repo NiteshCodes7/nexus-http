@@ -279,7 +279,11 @@ class NexusHTTP {
 
       xhr.onload = () => {
         let data;
-        try { data = JSON.parse(xhr.responseText); } catch { data = xhr.responseText; }
+        try { 
+          data = JSON.parse(xhr.responseText); 
+        } catch { 
+          data = xhr.responseText; 
+        }
         if (xhr.status >= 200 && xhr.status < 300) {
           resolve({ data, status: xhr.status });
         } else {
