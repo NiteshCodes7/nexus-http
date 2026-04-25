@@ -405,10 +405,15 @@ const CachePlugin = (options = {}) => ({
 
 const nexus = new NexusHTTP();
 
-module.exports             = nexus;
-module.exports.NexusHTTP   = NexusHTTP;
-module.exports.NexusError  = NexusError;
-module.exports.LoggerPlugin = LoggerPlugin;
-module.exports.AuthPlugin  = AuthPlugin;
-module.exports.CachePlugin = CachePlugin;
-module.exports.create      = (config) => new NexusHTTP(config);
+const create = (config) => new NexusHTTP(config);
+
+export default nexus;
+
+export {
+  NexusHTTP,
+  NexusError,
+  LoggerPlugin,
+  AuthPlugin,
+  CachePlugin,
+  create
+};
