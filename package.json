@@ -1,6 +1,6 @@
 {
   "name": "nexus-http",
-  "version": "2.0.1",
+  "version": "1.0.7",
   "description": "A powerful, feature-rich HTTP client with caching, retries, deduplication, streaming, and more.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
