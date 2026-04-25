@@ -2,15 +2,19 @@
   "name": "nexus-http",
   "version": "1.0.5",
   "description": "A powerful, feature-rich HTTP client with caching, retries, deduplication, streaming, and more.",
-  "main": "src/index.js",
-  "types": "src/index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "require": "./src/index.js",
-      "import": "./src/index.js",
-      "types": "./src/index.d.ts"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
     }
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup src/index.js --format cjs,esm --dts --clean",
     "test": "node tests/index.test.js"
