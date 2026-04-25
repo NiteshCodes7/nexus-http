@@ -105,7 +105,7 @@ import nexus, { create, NexusError } from 'nexus-http';
 
 ```html
 <script type="module">
-  import nexus from 'https://cdn.jsdelivr.net/npm/nexus-http/src/index.js';
+  import nexus from 'https://cdn.jsdelivr.net/npm/nexus-http/dist/index.mjs';
 
   const { data } = await nexus.get('https://api.example.com/users');
   console.log(data);
